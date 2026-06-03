@@ -115,18 +115,20 @@ The site includes:
 ```
 docs/
 ├── README.md                  # This file
-├── package.json              # VitePress config
-├── docs/
-│   ├── .vitepress/
-│   │   └── config.js         # Site configuration
-│   ├── guide/
-│   │   ├── getting-started.md
-│   │   ├── api-key.md
-│   │   ├── claude-code.md
-│   │   ├── codex.md
-│   │   └── opencode.md
-│   ├── public/               # Static assets
-│   └── index.md              # Homepage
+├── package.json              # VitePress scripts
+├── .vitepress/
+│   └── config.js             # Site configuration
+├── guide/
+│   ├── getting-started.md
+│   ├── api-key.md
+│   ├── claude-code.md
+│   ├── codex.md
+│   └── opencode.md
+├── zh/
+│   ├── index.md
+│   └── guide/
+├── public/                   # Static assets
+└── index.md                  # Homepage
 ```
 
 ---

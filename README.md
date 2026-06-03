@@ -4,7 +4,7 @@ Documentation website for using https://ai.xiaoyuan.co.uk in Claude Code, Codex,
 
 在 Claude Code、Codex 和 OpenCode 中使用 https://ai.xiaoyuan.co.uk 的文档网站。
 
-> 中文文档位于 [`docs/zh/`](docs/zh/) 目录 | Chinese docs at [`docs/zh/`](docs/zh/)
+> 中文文档位于 [`zh/`](zh/) 目录 | Chinese docs at [`zh/`](zh/)
 
 ## Quick Start / 快速开始
 
@@ -31,7 +31,7 @@ The documentation is built with [VitePress](https://vitepress.dev/).
 ### Project Structure / 项目结构
 
 ```
-docs/
+.
 ├── .vitepress/
 │   └── config.js          # VitePress configuration / 配置文件
 ├── guide/
@@ -59,7 +59,7 @@ The site can be deployed to any static hosting service / 站点可以部署到�
 
 - **GitHub Pages**: Use `.github/workflows/deploy.yml`
 - **Vercel**: Import repository and build with `npm run docs:build`
-- **Netlify**: Build command: `npm run docs:build`, publish directory: `docs/.vitepress/dist`
+- **Netlify**: Build command: `npm run docs:build`, publish directory: `.vitepress/dist`
 
 ## License / 许可证
 
