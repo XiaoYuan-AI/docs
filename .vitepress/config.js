@@ -1,10 +1,7 @@
 import { defineConfig } from 'vitepress'
 
-const repo = process.env.GITHUB_REPOSITORY?.split('/')[1]
-const base = process.env.GITHUB_ACTIONS === 'true' && repo ? `/${repo}/` : '/'
-
 export default defineConfig({
-  base,
+  base: '/',
   title: 'XiaoYuan AI',
   description: 'Use Claude 4.8 in your favorite coding tools',
   srcExclude: ['README.md', 'USAGE.md'],
